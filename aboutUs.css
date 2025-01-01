@@ -1,0 +1,39 @@
+.about-us-content{
+    background-color: #222;
+    color: white;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.img-container{
+    width: 40%;
+    height: 30%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.img-container img{
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+}
+
+.text-container{
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.text-container .text{
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+.about-us-content>h1:nth-child(1){
+    text-align: center;
+    position: relative;
+    border-bottom: 1px solid rgb(211, 148, 64);
+    width: 100px;
+    margin: 0 auto;
+    font-weight: 300;
+}

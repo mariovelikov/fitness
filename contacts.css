@@ -1,0 +1,41 @@
+.contacts-section{
+    background-color: #222;
+    color: white;
+    padding-bottom: 4rem;
+    padding-top: 2rem;
+}
+
+.contacts{
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.contacts>h1:nth-child(1){
+    font-weight: 500;
+    border-bottom: 1px solid rgb(211, 148, 64);
+    width: 100px;
+    margin: 0 auto;
+    font-weight: 300;
+}
+
+.contacts>h1:nth-child(2){
+    margin-top: 2rem;
+}
+
+.contacts h1{
+    font-weight: 200;
+}
+.contacts span{
+    color: rgb(211, 148, 64);
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.map{
+    margin: 0 auto;
+    width: 80%;
+}
+
+iframe{
+    width: 100%;
+}

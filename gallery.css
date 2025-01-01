@@ -1,0 +1,40 @@
+.gallery-section{
+    background-color: #222;
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+}
+
+.gallery-section h1{
+    width: 100px;
+    border-bottom: 1px solid rgb(211, 148, 64);
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    font-weight: 300;
+}
+
+.img-container{
+    width: 70%;
+    height: 800px;
+    overflow: hidden;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.img-container img{
+    width: 100%;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 1000px) {
+    .img-container{
+        height: 500px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .img-container{
+        height: 300px;
+    }
+}
